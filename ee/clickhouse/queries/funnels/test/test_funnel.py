@@ -1,5 +1,6 @@
 from unittest.case import skip
 from uuid import uuid4
+
 from freezegun.api import freeze_time
 from rest_framework.exceptions import ValidationError
 

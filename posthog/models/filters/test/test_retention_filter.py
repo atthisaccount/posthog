@@ -1,4 +1,5 @@
 from freezegun.api import freeze_time
+
 from posthog.models.filters.retention_filter import RetentionFilter
 from posthog.test.base import BaseTest
 

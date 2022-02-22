@@ -1,4 +1,5 @@
 from typing import Any, Dict, cast
+
 from rest_framework.decorators import action
 from rest_framework.permissions import SAFE_METHODS, BasePermission
 from rest_framework.request import Request

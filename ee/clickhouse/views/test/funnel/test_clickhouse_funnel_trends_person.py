@@ -1,5 +1,6 @@
 import json
 from uuid import uuid4
+
 from rest_framework import status
 
 from ee.clickhouse.models.event import create_event

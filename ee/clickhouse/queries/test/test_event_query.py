@@ -1,4 +1,5 @@
 from uuid import uuid4
+
 from freezegun import freeze_time
 
 from ee.clickhouse.client import sync_execute

@@ -1,4 +1,5 @@
 from typing import Any, Dict, Tuple
+
 from ee.clickhouse.models.action import format_action_filter
 from ee.clickhouse.models.group import get_aggregation_target_field
 from ee.clickhouse.queries.event_query import ClickhouseEventQuery

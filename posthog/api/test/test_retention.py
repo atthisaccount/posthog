@@ -1,12 +1,10 @@
 import json
 from datetime import datetime
 from typing import Any, Dict, List, Optional
+
 from django.test import Client
 
-from posthog.api.test.test_event_definition import (
-    EventData,
-    capture_event,
-)
+from posthog.api.test.test_event_definition import EventData, capture_event
 
 
 def identify(

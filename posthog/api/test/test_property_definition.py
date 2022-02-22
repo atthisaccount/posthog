@@ -1,5 +1,6 @@
 import random
 from typing import Dict
+
 from rest_framework import status
 
 from posthog.demo import create_demo_team

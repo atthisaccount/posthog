@@ -1,5 +1,7 @@
 import uuid
+
 from rest_framework import status
+
 from posthog.test.base import APIBaseTest
 
 
