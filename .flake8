@@ -80,12 +80,3 @@ per-file-ignores =
     ./posthog/settings/overrides.py: T001
     ./posthog/utils.py: T001
     ./posthog/async_migrations/test/test_migrations_not_required.py: T001
-
-    ./ee/clickhouse/materialized_columns/__init__.py: F401
-    ./ee/clickhouse/queries/funnels/__init__.py: F401
-    ./ee/clickhouse/queries/paths/__init__.py: F401
-    ./posthog/models/__init__.py: F401
-    ./posthog/models/filters/__init__.py: F401
-    ./posthog/plugins/__init__.py: F401
-    ./posthog/settings/__init__.py: F401
-    ./posthog/tasks/__init__.py: F401
