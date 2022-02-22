@@ -1,6 +1,4 @@
 from typing import Any, Dict
-
-import posthoganalytics
 from django.db.models import QuerySet
 from django.db.models.signals import post_save
 from django.dispatch import receiver

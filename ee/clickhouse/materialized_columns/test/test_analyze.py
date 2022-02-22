@@ -1,5 +1,4 @@
-from ee.clickhouse.materialized_columns import materialize
-from ee.clickhouse.materialized_columns.analyze import Query, TeamManager, analyze
+from ee.clickhouse.materialized_columns.analyze import Query, TeamManager
 from ee.clickhouse.util import ClickhouseTestMixin
 from posthog.models import Person, PropertyDefinition
 from posthog.test.base import BaseTest

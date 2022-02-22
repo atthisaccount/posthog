@@ -17,7 +17,6 @@ from posthog.async_migrations.utils import (
 )
 from posthog.models.async_migration import (
     AsyncMigration,
-    AsyncMigrationError,
     MigrationStatus,
     get_all_running_async_migrations,
 )

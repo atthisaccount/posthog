@@ -2,7 +2,6 @@ from typing import (
     Any,
     Dict,
     List,
-    Literal,
     Optional,
     Tuple,
     Union,
@@ -29,7 +28,6 @@ from posthog.models.cohort import Cohort
 from posthog.models.entity import Entity
 from posthog.models.filters.filter import Filter
 from posthog.models.filters.utils import GroupTypeIndex
-from posthog.models.property import PropertyGroup
 
 ALL_USERS_COHORT_ID = 0
 

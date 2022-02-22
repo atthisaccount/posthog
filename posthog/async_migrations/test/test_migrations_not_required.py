@@ -1,4 +1,3 @@
-import pytest
 from infi.clickhouse_orm.utils import import_submodules
 
 from posthog.async_migrations.setup import ASYNC_MIGRATIONS_MODULE_PATH

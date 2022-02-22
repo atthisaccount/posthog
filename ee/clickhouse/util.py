@@ -4,7 +4,6 @@ from typing import Any, Tuple, Union
 from unittest.mock import patch
 
 import sqlparse
-from django.db import DEFAULT_DB_ALIAS
 
 from ee.clickhouse.client import ch_pool, sync_execute
 from ee.clickhouse.sql.events import DROP_EVENTS_TABLE_SQL, EVENTS_TABLE_SQL
